@@ -18,9 +18,6 @@
     "author": {
       "type": "string"
     },
-    "type": {
-      "type": "string"
-    },
     "lenght": {
       "type": "string"
     },
@@ -52,6 +49,13 @@
     },
     "rating": {
       "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "audio"
+      ]
     }
   }
 }
